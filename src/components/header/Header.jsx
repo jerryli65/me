@@ -1,7 +1,6 @@
 import React from "react";
 import "./header.css";
 import CallToAction from "./CallToAction.jsx";
-import ME from "../../assets/about-pic.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
@@ -14,10 +13,6 @@ const Header = () => {
         <h5 className="text-light">Texas A&M University '24</h5>
         <CallToAction />
         <HeaderSocials />
-
-        <div className="me">
-          <img src={ME} alt="Self Portrait" />
-        </div>
       </div>
     </header>
   );
