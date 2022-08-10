@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import CallToAction from "./CallToAction.jsx";
-import ME from "../../assets/me.png";
+import ME from "../../assets/about-pic.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
@@ -18,10 +18,6 @@ const Header = () => {
         <div className="me">
           <img src={ME} alt="Self Portrait" />
         </div>
-
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
       </div>
     </header>
   );

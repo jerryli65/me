@@ -12,9 +12,9 @@
 
 :root {
     --color-bg: #1f1f38;
-    --color-bg-variant: #800000;
-    --color-primary: #d8cbcb;
-    --color-primary-variant: #ffd700;
+    --color-bg-variant: #580880;
+    --color-primary: #b336f6;
+    --color-primary-variant: #0b826b;
     --color-white: #fff;
     --color-light: rgba(255,255,255,0.6);
 
@@ -39,7 +39,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg6small.png);
+    /* background-image: url(../src/assets/bgt1.png); */
 }
 
 /* ========================GENERAL STYLES */
@@ -89,14 +89,17 @@ a:hover {
 }
 
 .btn {
-    width: max-content;
+    width: 10%;
+    height: 75%;
     display: inline-block;
-    color: var(--color-primary);
+    color: var(--color-bg);
+    background-color: var(--color-white);
     padding: 0.75 rem 1.2 rem;
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid var(--color-primary-variant);
     transition: var(transition);
+    text-align: center;
 }
 
 .btn:hover {
@@ -107,7 +110,9 @@ a:hover {
 
 .btn-primary {
     background: var(--color-primary-variant);
-    color: var(--color-bg);
+    color: var(--color-white);
+    width:  10%;
+    height: 75%;
 }
 
 img {

@@ -41,7 +41,7 @@ header {
 /* ME */
 
 .me {
-    background: var(--color-primary);
+    /* background: var(--color-primary); */
     width: 22rem;
     height: 25rem;
     position: absolute;
