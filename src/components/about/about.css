@@ -56,12 +56,16 @@
 }
 
 .about__card small {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     color: var(--color-light);
 }
 
 .about__content p {
-    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+.about__paragraphs p.shifted {
+    margin-left: 50px;
     color: var(--color-light);
 }
 
