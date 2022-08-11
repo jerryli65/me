@@ -11,8 +11,8 @@ const Header = () => {
         <h1>Jerry Li</h1>
         <h4 className="text-light">Computer Science Student</h4>
         <h5 className="text-light">Texas A&M University '24</h5>
-        <CallToAction />
         <HeaderSocials />
+        <CallToAction />
       </div>
     </header>
   );
