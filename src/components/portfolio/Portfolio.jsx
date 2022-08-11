@@ -12,8 +12,7 @@ const projectData = [
     id: 1,
     image: PROJ1,
     title: "PERSONAL PORTFOLIO",
-    description:
-      "You're looking at it right now. (Did you get the recursion joke in the image for this project?)",
+    description: "You're looking at it right now.",
     languages: "React.js, node.js, JavaScript, CSS, HTML, JSX, EmailJS",
     github: "https://github.com/jerryli65/me",
   },
@@ -40,7 +39,7 @@ const projectData = [
     image: PROJ4,
     title: "ANARCHIST CHESS",
     description:
-      "A chess variant containing fun mechanics unofficially representing the AnarchyChess online community.",
+      "A chess variant containing fun mechanics unofficially representing an online community.",
     languages: "Python, Tkinter",
     github: "https://github.com/jerryli65/Anarchist-Chess",
   },
